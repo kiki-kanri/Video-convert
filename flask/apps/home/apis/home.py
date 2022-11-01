@@ -26,7 +26,7 @@ def convert_video():
 
     # Create result filepath
     result_filename = f'{random_str(128, 128)}.mp4'
-    result_filepath = f'./files/tmp/{result_filename}'
+    result_filepath = f'./files/{result_filename}'
 
     # Convert video
     os.system(f'ffmpeg -i {tmp_filepath} -c:v libx264 -c:a aac {result_filepath}')
