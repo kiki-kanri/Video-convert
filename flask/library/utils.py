@@ -4,8 +4,6 @@ from importlib import import_module
 from kikiutils.check import isint, isstr
 from validator import validate as _validate
 
-# from .p2p import node
-
 
 # Decorators
 
