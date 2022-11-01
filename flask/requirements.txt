@@ -1,0 +1,5 @@
+git+https://github.com/kiki-kanri/kikiutils-python.git
+git+https://github.com/kiki-kanri/meinheld-2.0.git
+flask
+gunicorn
+validator
